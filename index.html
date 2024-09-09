@@ -1,0 +1,33 @@
+<html>
+  <head>
+    <script src="token.js"></script>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <h2>Level 1 - Upload like newbie</h2>
+    <input type="file" id="fileInp"/>
+    <hr>
+
+    <h2>Level 2 - Custom Upload button</h2>
+
+    <button id="btnUp">Click me to upload files</button>
+    <hr>
+
+    <h2>Level 3 - Upload and log progress</h2>
+    <input type="file" id="fileInp-level3" oninput="uploadFileProgress()"/>
+    <hr>
+
+    <h2>Level 4 - Upload and Visual progress</h2>
+    <input type="file" id="fileInp-level4" oninput="uploadFileProgressVisual()"/><br>
+    <input type="range" id="progress-level4" value="0" min="0" max="100">
+    <hr>
+
+    <h2>Level 5 - Chunk Files Upload</h2>
+    <input type="file" id="fileInp-level5" oninput="uploadFilesChunk()"/><br>
+    <div id="progress-level5-ctn"></div>
+    <hr>
+
+
+    <script src="main.js"></script>
+  </body>
+</html>
