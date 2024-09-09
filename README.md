@@ -1,6 +1,6 @@
 # Example JavaScript Upload Files 
 
-[Video when i create]()
+[Video when i create](https://youtu.be/sYMXvr_6naM)
 
 ## Feature
 5 type of uploads
